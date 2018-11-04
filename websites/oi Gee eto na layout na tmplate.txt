@@ -1,0 +1,13 @@
+YUNG MAIN PAGE NYO YUNG:
+
+"website.html"
+
+
+
+
+bala ka na magpalit palit nento basta bigyan lng kita idea.... pag maglalagay ka ng images... ilagay mo sya dito sa same folder...
+
+<img src="PICTURE_NAME.jpg">
+<img src="PICTURE_NAME.png">
+
+ganyan ha..

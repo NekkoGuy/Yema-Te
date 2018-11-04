@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Yema'Teh</title>
+	<style>
+		*   {
+			box-sizing:border-box;
+	            }
+		
+		body{
+			background-image: url("WallpaperManila.jpg");
+    		background-repeat: no-repeat;
+    		background-size: cover;
+			font-family: Arial, Helvetica, sans-serif;
+	    	     }
+	
+		header{
+			backgorund-color: #999;
+			max-height: 288px;
+			
+		      }
+		nav{
+			float: left;
+			width: 20%;
+			height: 450px;
+			background-color: rgb(127, 112, 66,.65);
+			padding: 20px;
+			color: white;
+			text-align: left;
+		   }
+		
+		article{
+    			float: left;
+    			padding: 40px;
+    			width: 80%;
+    			background-color: rgb(240, 193, 48,.5);
+    			height: 450px;
+			    
+			    color: white;
+		       }
+
+		nav il {
+			list-style-type: none;
+   			padding: 0;
+		       }
+
+	section: after {
+ 				content: "";
+    			display: table;
+    			clear: both;
+		       }
+		footer{
+			  background-color: rgb(163, 130, 31,.8);
+			  text-align: center; 
+			  color: white; 
+			  top: 500px;	
+			  width: 100%;
+		      }
+		   	p
+			{
+				text-shadow: #000 1px 1px 5px;
+			}
+
+		#DIV1
+		{	
+			padding-top: 0px;
+    		background-color: rgb(240, 193, 48,.5);
+    		height: 300px;
+    		width: 100%;
+			color: white;
+			/*
+   			width: 100%;
+			background-color: rgb(163, 130, 31,.0);                  
+    		color: white;
+    		text-align: center;
+			right: 6px;
+			top: 80%;
+			*/
+		}
+		a
+		     {
+			color: white;	
+			text-style: none;					
+		      }
+
+@media (max-width: 1000px) {
+   		 nav, article, #divs {
+        		width: 100%;
+        		height: auto;	
+			      }
+			  }
+
+.F1 img {
+	border: 5px solid rgb(133, 100, 1);
+	position: absolute;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 4s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+		#img1
+			{
+			padding: 15px;
+			width:  450px;
+			height: 300px;
+			opacity: 1;
+			-webkit-animation-delay: 0s;
+			float: left;
+			}
+
+		#img2
+			{
+			padding: 15px;
+			width:  450px;
+			height: 300px;
+			opacity: 1;
+			-webkit-animation-delay: -2s;
+			float: left;
+			}
+		#Banner
+			{
+			display: block;
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+			}
+		#LOGOs
+			{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;		
+			}
+		#ADS
+			{
+			padding-left: 500px;
+			padding-top: 15px;
+			font-weight: bold;
+
+			}
+		#ADS1
+			{
+			padding-left: 500px;
+			padding-right: 15px;
+			}
+		#PRICE
+			{
+			padding-left: 500px;
+			padding-right: 15px;
+			}
+		#divs
+			{
+			top: 0px;
+    		background-color: rgb(240, 193, 48,.5);
+    		height: 300px;
+    		width: 450px;
+			color: white;
+			float: left;
+			}
+
+
+
+
+
+	</style>
+</head>
+
+
+
+
+<body>
+	<header>
+		<img src="TitleBannerLogo.png" id="Banner">
+	<section>
+		<nav>
+			<ul>
+				<b>
+				<h3>
+				<li><a href="Index.html">Home</a></li>
+				<li><a href="AboutUs.html">About Us</a></li>
+				<li><a href="Product.html">Product</a>
+				</h3>
+				</b>
+			</ul>
+		</nav>
+	</section>
+
+
+	<article class="F1">
+		<h3>
+			<marquee behavior="scroll" direction="left" bgcolor="#ad871d">
+				WELCOME TO OUR WEBSITE! WE HOPE YOU BUY!
+			</marquee>
+		</h3>
+		<div id="DIV1">
+			
+			<img id="img1" src="Product.png"> 
+			<img id="img2" src="Product2.png">
+
+				<p id="ADS">Buy Now! Contact No.:</p>
+				<p id="ADS">0946 467 4527</p>
+				<p id="PRICE">PHP 18.00 per piece.</p>
+				<p id="PRICE">PHP 40.00 per pack.</p>
+				<p id="ADS">OR GO TO OUR STORE FOR BETTER DEALS!</p>
+				<p id="PRICE">PHP 10.00 per piece.</p>
+				<p id="PRICE">PHP 35.00 per pack.</p>
+
+		</div>
+	</article>
+</header>
+
+<footer>
+	<center>
+			<b>
+			<p>Contact No. 0946 467 4527</p>			
+			<p>Call Now or Go to our nearest store!</p>
+			<p>Unit 3 Solid Manila Building, Tirona Hwy, Bacoor, 4102 Cavite</p>
+		    <p>Propreitor: Elma Del Rosario, Lyka Encela II, Christian Mar Docor, JD Cumigad, Adell Garcia, Robin Hubilla, Janpaolo De Vera</p>
+		    </b>
+	</center>	    
+</footer>
+
+
+</body>
+</html>
