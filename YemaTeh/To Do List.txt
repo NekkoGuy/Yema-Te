@@ -1,0 +1,28 @@
+WEBSITE
+
+HOME:
+-Logo: Yema'Teh
+
+-Propreitor: Del Rosario, Elma; Cumigad, John Daniel; Docor, Christian Mar;
+	     Encela, Lyka; Hubilla, Jerald Robin; Garcia, Johnadell; 
+	     De Vera, JanPaolo.
+
+-About Us: Yema'Teh is a product created by STI Bacoor Students of 
+	   BSIT101A for their Finals. Yema'teh is a yema, sandwiched with 2 
+	   biscuits, fit for anyone who likes something sweet.
+
+-Contact:  No.0999999999
+-Location: BacoorCity, Cavite.
+
+TRANSACTION PAGE:
+-Payment:
+-Delivery:
+
+
+Online 
+18 piraso
+40 per pack
+Brach
+10 piraso
+35 per pac
+
